@@ -7,7 +7,7 @@ import {
   Rubik_700Bold,
 } from '@expo-google-fonts/rubik';
 import { colors } from '@/styles/theme';
-import { Loading } from './components/loading';
+import { Loading } from '../components/loading';
 import { GestureHandlerRootView } from 'react-native-gesture-handler';
 
 export default function Layout() {
