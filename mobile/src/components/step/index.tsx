@@ -14,7 +14,7 @@ export function Step({ title, description, icon: Icon }: Props) {
     <View style={s.container}>
       <Icon size={32} color={colors.red.base} />
 
-      <View>
+      <View style={s.details}>
         <Text style={s.title}>{title}</Text>
         <Text style={s.description}>{description}</Text>
       </View>
